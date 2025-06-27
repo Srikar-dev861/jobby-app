@@ -1,0 +1,136 @@
+.detailed-job-view {
+  background-color: #000000;
+  background-size: 100vw 100vh; 
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  color: white;
+}
+.job-details-container{
+  background-color: #282c34;
+  margin: 6%;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.job-main-card {
+  background: #232323;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+.job-company-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: #fff;
+}
+.job-rating {
+  color: #ffd700;
+  font-weight: bold;
+}
+.job-info-row {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 16px 0 8px 0;
+  font-size: 16px;
+}
+.job-info-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #e2e8f0;
+}
+.job-info-icon {
+  font-size: 18px;
+  color: #b6c5ff;
+}
+.job-package {
+  margin-left: auto;
+  font-weight: bold;
+  color: #fff;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.company-website-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #3b82f6;
+  text-decoration: none;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 24px 0;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #181818;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.skill-img {
+  width: 32px;
+  height: 32px;
+}
+.life-at-company {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+.life-img {
+  width: 180px;
+  border-radius: 8px;
+}
+.similar-jobs-section {
+  margin-top: 32px;
+}
+.similar-jobs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.similar-job-card {
+  background: #232323;
+  border-radius: 10px;
+  padding: 18px;
+  width: 270px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.job-loader, .job-error {
+  color: #fff;
+  text-align: center;
+  padding: 32px;
+}
+.jo-in-last {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.life{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+  color: #fff;
+}

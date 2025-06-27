@@ -1,0 +1,89 @@
+.all-jobs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  overflow-x: hidden;   
+  width: 100%;         
+  max-width: 100vw;     
+}
+
+.spinner-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+/* Search bar styling */
+.job-search-bar {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0 auto 24px auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.job-search-bar input[type="text"] {
+  padding: 10px 36px 10px 14px; /* space for the cross */
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #bdbdbd;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.job-search-bar input[type="text"]:focus {
+  border-color: #066bbd;
+}
+
+.clear-search-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #888;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.clear-search-btn:hover {
+  color: #4fa94d;
+}
+
+/* Spinner centering */
+.custom-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+/* Example layout */
+.jobs-main {
+  display: flex;
+}
+.sidebar {
+  width: 300px;
+  min-width: 250px;
+  padding: 24px 16px;
+  background: #181818;
+}
+.jobs-content {
+  flex: 1;
+  padding: 24px;
+}

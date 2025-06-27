@@ -1,0 +1,41 @@
+.job-filters-container {
+  background: transparent;
+  color: #fff;
+  padding: 16px 0;
+  font-family: inherit;
+}
+
+.filter-section {
+  margin-bottom: 18px;
+}
+
+.filter-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.filter-option input[type="checkbox"],
+.filter-option input[type="radio"] {
+  accent-color: #3b82f6;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.filter-option label {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.filter-divider {
+  border: 0;
+  border-top: 1px solid #444;
+  margin: 18px 0;
+}
