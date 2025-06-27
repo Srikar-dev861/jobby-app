@@ -3,7 +3,7 @@ import Cookies from 'js-cookie'
 import {useNavigate} from 'react-router-dom'
 import JobsCard from '../JobsCard'
 import './index.css'
-import {Triangle} from 'react-loader-spinner'
+import {ClipLoader} from 'react-spinners'
 
 const AllJobCards = ({ employmentTypes = [], salaryRange = '' }) => {
   const [jobsList, setJobsList] = useState([])
@@ -66,14 +66,11 @@ const AllJobCards = ({ employmentTypes = [], salaryRange = '' }) => {
       </div>
       {isLoading ? (
         <div className="custom-spinner">
-          <Triangle
-            height="80"
-            width="80"
+          <ClipLoader
+            size={80}
             color="#4fa94d"
-            ariaLabel="triangle-loading"
-            wrapperStyle={{}}
-            wrapperClassName=""
-            visible={true}
+            aria-label="Loading Spinner"
+            data-testid="loader"
           />
         </div>
       ) : (
